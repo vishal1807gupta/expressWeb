@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Piazzolla:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+}
+
+:root{
+    --main-bg : #1e272e;
+    --main-color : #0097e6;
+}
+
+span{
+    color: var(--main-color);
+}
+body{
+    height: 100vh;
+}
+.main_menu{
+    background-color: var(--main-bg);
+}
+.navbar{
+    background-color: var(--main-bg);
+}
+.main_header{
+    height: 89vh;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: var(--main-color);
+}
+
+.main_header_left{
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main_header_right{
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+

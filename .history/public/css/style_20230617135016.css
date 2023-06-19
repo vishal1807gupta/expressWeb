@@ -1,0 +1,14 @@
+span{
+    color: blue;
+}
+body{
+    height: 100vh;
+}
+.main_header{
+    height: 89vh;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+}
+

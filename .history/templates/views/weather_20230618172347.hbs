@@ -1,0 +1,40 @@
+{{>headerlinks}}
+<body>
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-6 col-12 mx-auto searchbar">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="Enter your city name" autocomplete="off">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button">Search</button>
+                    </div>
+                    </div>
+                </form>
+                <div class="weatherBox align-items-center">
+                <div class="card mb-3 " style="max-width: 18rem;">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Sunday
+                        <span>18 Jun</span>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <h5 class="card-title">Get Output Here</h5>
+                    <div class="container row">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+   {{>footer}}
+</body>
+</html>

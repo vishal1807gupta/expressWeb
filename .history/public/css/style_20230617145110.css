@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Piazzolla:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+}
+
+:root{
+    --main-bg : #1e272e;
+    --main-color : #0097e6;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.main_menu{
+    background-color: var(--main-bg);
+}
+
+.navbar{
+    background-color: var(--main-bg);
+}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: var(--main-color);
+}
+
+.main_header_left{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main_header_left p{
+    font-size: 1.5rem;
+}
+
+.main_header_left button{
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    box-shadow: 0 8px 6px -6px #000;
+}
+
+.main_header_left button:hover{
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+
+.main_header_right{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+footer{
+    width: 100%;
+    background-color: var(--main-bg);
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff;
+}
+
